@@ -1,0 +1,22 @@
+@import '../settings';
+@import '../common/colors';
+@import '../common/typography';
+
+.message {
+  display: none;
+  padding: 12px 0;
+  border-radius: var(--globalRadius);
+  color: var(--colorBlack);
+  font-size: var(--fontMedium);
+  font-family: Courier;
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
+
+.success {
+  background-color: var(--colorDarkerBombay);
+  color: var(--colorWhite);
+}

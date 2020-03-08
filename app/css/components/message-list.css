@@ -1,0 +1,122 @@
+@import '../common/colors';
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column-side {
+    width: 30%;
+
+}
+
+/* Middle column */
+.container-message {
+    float: top;
+    width: 950px;
+    height: 500px;
+    position: absolute;
+    margin-left:145px;
+    margin-top:10px;
+    overflow: scroll;
+    background-color: gainsboro;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mess-input{
+    margin-left: 5px;
+    text-align: left;
+    color: black;
+
+}
+.message {
+    size: 200px;
+    color:#ffffff;
+    margin-left: 5px;
+}
+.footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+.name1{
+    position: relative;
+    line-height:10px;
+    padding: 0px;
+    color: black;
+    margin-left:730px;
+    flex-direction: row-reverse;
+    font-family: "American Typewriter";
+    font-size: smaller;
+}
+.name12{
+    position: relative;
+    line-height:10px;
+    padding: 0px;
+    color: black;
+    margin-left:10px;
+    font-family: "American Typewriter";
+    font-size: smaller;
+}
+.speech-bubble1 {
+    position: relative;
+    width: 250px;
+    height: 37px;
+    line-height: 40px;
+    padding: 0px;
+    background-color: dimgrey;
+    color: white;
+    border-radius: 7%;
+    margin-left:520px;
+    flex-direction: row-reverse;
+ }
+.speech-bubble1.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    max-width: 100%;
+    margin-left: 40px;
+}
+
+.speech-bubble1:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 20px 0 15px 15px;
+    border-color: transparent dimgrey;
+    display: block;
+    width: 0;
+    z-index: 1;
+    right: -15px;
+    top: 1px;
+}
+
+.speech-bubble12 {
+    position: relative;
+    width: 250px;
+    height: 37px;
+    line-height: 40px;
+    padding: 0px;
+    background: white;
+    border-radius: 7%;
+    margin-left:20px;
+}
+.speech-bubble12:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 20px 15px 15px 0;
+    border-color: transparent white;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -15px;
+    top: 1px;
+}
+

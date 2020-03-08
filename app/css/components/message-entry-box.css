@@ -1,0 +1,31 @@
+@import '../common/colors';
+
+.message-entry-box{
+    color: #ffffff;
+
+}
+.group-input{
+    color: var(--colorCoral)
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column-side {
+    width: 30%;
+}
+
+/* Middle column */
+.footer {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    width: 80%;
+    position: center;
+    float: bottom;
+    margin-right:150px;
+    margin-bottom: 30px;
+}

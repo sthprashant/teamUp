@@ -1,0 +1,48 @@
+@import 'settings';
+@import 'common/colors';
+@import 'common/layout';
+@import 'common/typography';
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--fontMontserrat);
+  background-color: #333f48;
+}
+
+.app {
+  @apply --box;
+  height: 100%;
+  font-weight: normal;
+  font-smoothing: antialiased;
+
+}
+
+.left-sidebar{
+  float: none;
+  width: 50%;
+  border-right: 2px solid var(--colorCoral);
+  margin-right:100px;
+  color: red;
+}
+
+
+
+/* Add your global styles below... */
+
+/* ex:
+
+:global {
+  & .red { color: red; }
+  & .blue { color: blue; }
+}
+
+*/
+
+:global {
+  .red { color: red; }
+}

@@ -1,0 +1,481 @@
+@import '../common/button';
+@import '../common/colors';
+@media (max-width: 960px);
+
+
+.button1{
+    display: block;
+    float:top;
+    position:absolute;
+    padding: 1rem 1.05rem;
+    top:3px;
+    left: 2px;
+    margin:10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    margin-bottom: 20px;
+    @apply --small;
+    color: var(--colorWhite);
+    background-image: url('https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/add-128.png');
+    background-color: coral;
+    background-size: contain;
+    border-color: pink;
+    width:8%;
+    height: 8%;
+}
+.button2 {
+    display: block;
+    float:top;
+    position:absolute;
+    top:230px;
+    right: 130px;
+    margin:10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    margin-bottom: 20px;
+    @apply --small;
+    color: var(--colorWhite);
+    background-image: url("http://simpleicon.com/wp-content/uploads/add-user.png");
+    background-color: coral;
+    background-size: contain;
+    border-color: pink;
+    width:3%;
+    height: 5%;
+}
+
+.button3 {
+    display: block;
+    float:top;
+    position:absolute;
+    top:280px;
+    right: 130px;
+    margin:10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    @apply --small;
+    color: var(--colorWhite);
+    background-image:url("https://cdn.pixabay.com/photo/2015/10/12/04/55/open-door-983422_1280.png");
+    background-color: coral;
+    background-size: contain;
+    border-color: pink;
+    width:3%;
+    height: 5%;
+}
+.button4 {
+    display: block;
+    float:top;
+    position:absolute;
+    top:480px;
+    right: 130px;
+    margin:10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    margin-bottom: 20px;
+    @apply --small;
+    color: var(--colorWhite);
+    background-image: url("https://cdn1.iconfinder.com/data/icons/web-ui-2/16/UI_Icons_Outline-35-256.png");
+    background-color: coral;
+    background-size: contain;
+    border-color: pink;
+    width: 3%;
+    height: 5%;
+}
+.button5{
+    display: block;
+    float:top;
+    position:absolute;
+    top:380px;
+    right: 130px;
+    margin:10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    @apply --small;
+    color: var(--colorWhite);
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Trash_font_awesome.svg/1024px-Trash_font_awesome.svg.png');
+    background-color: coral;
+    background-size: contain;
+    border-color: pink;
+    width:3%;
+    height: 5%;
+}
+.button6{
+    display: block;
+    float:top;
+    position:absolute;
+    top:430px;
+    right: 130px;
+    margin:10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    @apply --small;
+    color: var(--colorWhite);
+    background-image: url('http://simpleicon.com/wp-content/uploads/remove-user.png');
+    background-color: coral;
+    background-size: contain;
+    border-color: pink;
+    width:3%;
+    height: 5%;
+    }
+
+.button8 {
+    display: block;
+    float:top;
+    position:absolute;
+    top:530px;
+    right: 130px;
+    margin:10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    @apply --small;
+    color: var(--colorWhite);
+    background-image: url('https://media-curse.cursecdn.com/attachments/211/171/c726e484ca37e17ed2de765744f35186.png');
+    background-color: coral;
+    background-size: contain;
+    border-color: pink;
+    width:2%;
+    height: 5%;
+}
+.showbutton{
+    display: block;
+    float:top;
+    position:absolute;
+    top:330px;
+    right: 130px;
+    margin:10px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    margin-bottom: 20px;
+    @apply --small;
+    color: var(--colorWhite);
+    background-image: url("https://www.stripyourbanker.com/assets/site/images/checklist.png");
+    background-color: coral;
+    background-size: contain;
+    border-color: pink;
+    width: 3%;
+    height: 5%;
+}
+.group-input {
+    color: white;
+    display: block;
+    margin-top: 8px;
+    text-align: center;
+}
+.container-group{
+    float: left;
+    width: 150px;
+    height: 65px;
+    position: absolute;
+    border-right: 2px solid dimgrey;
+    background-color: dimgrey;
+    margin-top: 10px;
+    display: block;
+    border-bottom: 4px solid black;
+}
+.container-left{
+    float: left;
+    width: 150px;
+    height: 530px;
+    position: absolute;
+    border-right: 2px solid dimgrey;
+    background-color: dimgrey;
+    margin-top: 80px;
+    display: block;
+}
+
+.container-message {
+    float: top;
+    width: 700px;
+    height: 300px;
+
+}
+.container-button{
+    float: top;
+    width: 200px;
+    height: 400px;
+}
+.container-entrybox{
+    float: bottom;
+    width: 950px;
+    text-align: left;
+    font-size: large;
+    position: absolute;
+    height: 100px;
+    margin-left: 75px;
+    margin-top: 105px;
+}
+.invite{
+    position:absolute;
+    top:240px;
+    right: 50px;
+    margin:10px;
+    font-family: Courier;
+    width:5%;
+    color: white;
+    font-size:15px;
+    text-align: center;
+    border-radius: 1px;
+    border-style: hidden;
+}
+.leave{
+    position:absolute;
+    top:290px;
+    right: 50px;
+    margin:10px;
+    font-family: Courier;
+    width:5%;
+    color: white;
+    font-size:15px;
+    text-align: center;
+    border-radius: 1px;
+    border-style: hidden;
+}
+.delete{
+    position:absolute;
+    top:390px;
+    right: 50px;
+    margin:10px;
+    font-family: Courier;
+    width:5%;
+    color: white;
+    font-size:15px;
+    text-align: center;
+    border-radius: 1px;
+    border-style: hidden;
+}
+.remove{
+    position:absolute;
+    top:440px;
+    right: 50px;
+    margin:10px;
+    font-family: Courier;
+    width:5%;
+    color: white;
+    font-size:15px;
+    text-align: center;
+    border-radius: 1px;
+    border-style: hidden;
+}
+.manager{
+    position:absolute;
+    top:540px;
+    right: 50px;
+    margin:10px;
+    font-family: Courier;
+    width:5%;
+    color: white;
+    font-size:15px;
+    text-align: center;
+    border-radius: 1px;
+    border-style: hidden;
+}
+.meeting{
+    position:absolute;
+    top:490px;
+    right: 50px;
+    margin:10px;
+    font-family: Courier;
+    width:5%;
+    color: white;
+    font-size:15px;
+    text-align: center;
+    border-radius: 1px;
+    border-style: hidden;
+}
+.group{
+    position:absolute;
+    top:10px;
+    right: 70px;
+    margin:10px;
+    font-family: Courier;
+    width:5%;
+    color: white;
+    font-size:20px;
+    text-align: center;
+    border-radius: 1px;
+    border-style: hidden;
+}
+.show{
+    position:absolute;
+    top:335px;
+    right: 50px;
+    margin:10px;
+    font-family: Courier;
+    width:5%;
+    color: white;
+    font-size:13px;
+    text-align: center;
+    border-radius: 1px;
+    border-style: hidden;
+}
+.username{
+    position:absolute;
+    top:175px;
+    right: 60px;
+    margin:10px;
+    font-family: "American Typewriter";
+    width:10%;
+    color: white;
+    font-size:15px;
+    text-align: center;
+}
+
+input {
+    background-color: var(--colorDarkerBombay);
+    border-radius: 1px;
+    border-style: dashed;
+    border-color: #b4bac1;
+    color: white;
+    padding: 13px 26px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.enter{
+    font-family: "American Typewriter";
+    color: dimgrey;
+    font-size: medium;
+}
+.enteremail{
+    font-family: "American Typewriter";
+    background-color: var(--colorDarkerBombay);
+    color: white;
+    font-size: 10px;
+}
+.redButton {
+    display: block;
+    width: 40%;
+    float: bottom;
+    padding: 0.35rem 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    margin-bottom: 20px;
+    @apply --small;
+    color: var(--colorWhite);
+    background: var(--colorCoral);
+    border-color: var(--colorCoral);
+
+&:hover {
+     background: var(--colorDarderCoral);
+     border-color: var(--colorDarderCoral);
+ }
+}
+.greyButton {
+    display: block;
+    width: 40%;
+    float: bottom;
+    padding: 0.35rem 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    margin-bottom: 20px;
+    @apply --small;
+    color: var(--colorWhite);
+    background-color: var(--colorDarkerBombay);
+    border-color: var(--colorDarkerBombay);
+
+}
+
+.setmeeting{
+    font-family: "American Typewriter";
+    color: black;
+}
+.greyButton1 {
+    display: inline-block;
+    width: 20%;
+    float: top;
+    padding: 0.35rem 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    margin-left: 90px;
+    margin-bottom: 10px;
+    @apply --small;
+    color: var(--colorWhite);
+    background-color: var(--colorDarkerBombay);
+    border-color: var(--colorDarkerBombay);
+
+}
+.redButton1 {
+    display: inline-block;
+    width: 20%;
+    float: top;
+    padding: 0.35rem 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    @apply --small;
+    color: var(--colorWhite);
+    background: var(--colorCoral);
+    border-color: var(--colorCoral);
+
+&:hover {
+     background: var(--colorDarderCoral);
+     border-color: var(--colorDarderCoral);
+ }
+}
+.greyButton2 {
+    display: inline-block;
+    width: 20%;
+    float: top;
+    padding: 0.35rem 0.75rem;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    border-style: solid;
+    cursor: pointer;
+    transition: 0.1s background-color ease;
+    margin-left: 140px;
+    margin-bottom: 10px;
+    @apply --small;
+    color: var(--colorWhite);
+    background-color: var(--colorDarkerBombay);
+    border-color: var(--colorDarkerBombay);
+
+}
