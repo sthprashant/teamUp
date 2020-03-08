@@ -7,4 +7,11 @@ TeamUp app is built as a part of our university project that helps students coll
 - ReactJS, Redux, Express, Passport, Firebase.
 - Initially forked opensource reactGo boilerplate and modified accordingly for our project
 
-> This project was built in a group of 6 as a part of university subject at University of Technology Sydney for Software Engineering Practice subject. Scrum methodologies have been used to plan, design, develop,implement and test.
+### Want to try it out?
+- ensure <a href="https://nodejs.org/en/">Node.js</a> is installed
+- clone/download the repo
+- on cmd, run, `npm install`
+- then, run, `npm start`
+
+
+> This project was built in a group of 6 as a part of university subject at University of Technology Sydney for 48440 - Software Engineering Practice subject. Scrum methodologies have been used to plan, design, develop,implement and test.
